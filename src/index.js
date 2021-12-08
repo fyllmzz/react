@@ -5,9 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+
+  // APP componentini, root a yerleştir.
+  //root: public> index.html de
+  
+    <App />,
   document.getElementById('root')
 );
 
